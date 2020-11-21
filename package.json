@@ -1,4 +1,10 @@
 {
   "name": "md-links",
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "fetch": "^1.1.0",
+    "jsdom": "^16.4.0",
+    "markdown-it": "^12.0.2"
+  }
 }
