@@ -9,7 +9,7 @@
 
 ## 1. ¿Qué es Seeker Rat?
 
-![portada]()
+![portada](https://raw.githubusercontent.com/paupi-chill-e/SCL014-md-links/master/img/portada.jpg)
 
 Seeker Rat, es una línea de comando (CLI) que permite encontrar archivos con extensión "md" (Markdown). Estos archivos normalmente contienen _links_ (vínculos/ligas) que muchas veces están ya no son válidos y eso perjudica mucho el valor de la información que se quiere compartir.
 Con la ayuda de Seeker Rat, esta tarea se hace más fácil, ya que buscará y te entregará la siguiente información:
@@ -39,7 +39,7 @@ $ seeker-rat ./some/example.md
 
 Para el flujo de trabajo se realizó un diagrama de flujo:
 
-![diagrama]()
+![diagrama](https://raw.githubusercontent.com/paupi-chill-e/SCL014-md-links/master/img/diagrama.png)
 
 
 ---

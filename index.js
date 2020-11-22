@@ -25,12 +25,12 @@ pathDirectory = path.resolve(pathDirectory);
 pathDirectory = path.normalize(pathDirectory);
 
 const motherPromise = () => {
-  return new Promise((resolve, reject) => {
+  return new Promise((resolve) => {
     let stats = fs.statSync(pathDirectory);
     if (stats.isDirectory() === true){
-      resolve (pathDirectory)
+      resolve(pathDirectory)
     } else {
-      reject(readArchive(pathDirectory))
+      readArchive(pathDirectory)
     } 
   })
 }
@@ -119,7 +119,7 @@ const validate = (result) => {
       
       console.log(nEwNeW);
     })
-    .catch((err) => console.log(chalk.red('Erros al traer la información')))
+    .catch((err) => console.log(chalk.red('Error al traer la información')))
   })
  
 }
