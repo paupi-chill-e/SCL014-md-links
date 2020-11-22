@@ -102,8 +102,8 @@ const validate = (result) => {
    linkStatus(obj.href)
   .then((res) => {
       let status= '';
-      if ( res.toString().slice(0,1) <= '3' ) status='okidoki';
-      else status= 'fail';
+      if ( res.toString().slice(0,1) <= '3' ) status='Okidoki';
+      else status= 'Fail';
 
       let newObject = {
         href: obj.href,
